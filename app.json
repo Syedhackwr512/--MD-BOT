@@ -1,0 +1,21 @@
+{
+  "name": "𝐒𝐘𝐄𝐃 𝐇𝐀𝐂𝐊𝐄𝐑-MD",
+  "description": "𝐒𝐘𝐄𝐃 𝐇𝐀𝐂𝐊𝐄𝐑-MD WhatsApp bot made by 𝐒𝐘𝐄𝐃 𝐇𝐀𝐂𝐊𝐄𝐑 official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","𝐒𝐘𝐄𝐃 𝐇𝐀𝐂𝐊𝐄𝐑-MD","𝐒𝐘𝐄𝐃 𝐇𝐀𝐂𝐊𝐄𝐑-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the Kira-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
